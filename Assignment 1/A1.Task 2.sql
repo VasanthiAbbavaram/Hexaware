@@ -47,4 +47,4 @@ DELETE FROM Orders WHERE CustomerID = 1;
 
 -- 10
 INSERT INTO Products (productID,ProductName, Description, Price)
-VALUES (11,'New Electronic Gadget', 'A unique widget', 99.99);
+VALUES (11,'New Gadget', 'A unique widget', 99.99);
