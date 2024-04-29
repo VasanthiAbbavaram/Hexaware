@@ -31,10 +31,10 @@ create table assets(
 desc assets;
 
 create table maintenance_records(
-	 maintenance_id int primary key,
-     asset_id int,
-     maintenance_date date,
-     description text,
+	maintenance_id int primary key,
+	asset_id int,
+	maintenance_date date,
+	description text,
 	cost decimal(10,2),
     foreign key(asset_id) references assets(asset_id)
 );
